@@ -1,8 +1,4 @@
 
-
-
-
-
 function scrollToTop() {
     window.scrollTo({
         top: 0,
@@ -19,3 +15,4 @@ window.onscroll = function() {
         button.style.display = "none";
     }
 };
+
