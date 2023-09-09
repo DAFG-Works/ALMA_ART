@@ -2629,11 +2629,11 @@ div.ALMA_FINAL > h4{
     }
     
     #ARTIST > #ARTIST_PHOTOS > img:nth-child(4) {
-        width: 199px;
+        width: 198px;
         height: 154px;
         padding-left: 1rem;
         position: relative;
-        left: 155px;
+        left: 174px;
         bottom: 157px;
     }
     
@@ -2822,7 +2822,9 @@ div.ALMA_FINAL > h4{
         font-weight: 800;
         font-size: 48px;
         position: relative;
-        top: 300px;
+        top: 330px;
+        left: -230px;
+        text-align: right;
     }
     
     #BLUE > figure > img:nth-child(1) {
@@ -2894,8 +2896,10 @@ div.ALMA_FINAL > h4{
         font-size: 48px;
         position: relative;
         top: 4rem;
+        left: -187px;
         padding-bottom: 5rem;
         padding-left: 1rem;
+        text-align: right;
     }
     
     #GREEN > p {
@@ -2974,6 +2978,8 @@ div.ALMA_FINAL > h4{
         font-size: 48px;
         position: relative;
         bottom: 1168px;
+        left: -151px;
+        text-align: right;
     }
     
     #YELLOW > figure > img:nth-child(1) {
@@ -3051,6 +3057,9 @@ div.ALMA_FINAL > h4{
         font-size: 46px;
         position: relative;
         top: -1042px;
+        left: -261px;
+        text-align: right;
+        padding-left: 17px;
     }
     
     #RED > p {
@@ -3130,6 +3139,8 @@ div.ALMA_FINAL > h4{
         padding-left: 1rem;
         position: relative;
         top: -128px;
+        left: -173px;
+        text-align: right;
     }
     
     #PURPLE > figure > img:nth-child(1) {
