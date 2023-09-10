@@ -1192,7 +1192,7 @@ div.ALMA_FINAL > h4{
     background-color: darkblue;
 }
 
-@media screen and (max-width: 458px){
+@media screen and (max-width: 516px){
     header{
         content: '';
         background-image: url(IMG/HEAD/HAIZY_HUES.jpg);
@@ -1955,7 +1955,6 @@ div.ALMA_FINAL > h4{
     #OTHER_SENSE {
         background-color: rgb(236, 236, 236);
         padding-bottom: 14rem;
-        padding-top: 11rem;
         width: 516px;
     }
     
@@ -2442,6 +2441,1282 @@ div.ALMA_FINAL > h4{
     #COPYRIGHT > p{
         position: relative;
         left: 63px;
+        bottom: 2px;
+        text-align: center;
+    }
+    
+    .scroll-to-top {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        display: none;
+        cursor: pointer;
+        background-color: darkblue;
+        color: rgb(236, 236, 236);
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+        font-size: 16px;
+    }
+    
+    .scroll-to-top:hover {
+        background-color: darkblue;
+    }
+}
+
+
+@media screen and (max-width: 458px){
+    header{
+        content: '';
+        background-image: url(IMG/HEAD/HAIZY_HUES.jpg);
+        background-size: 1000px;
+        background-position: top right;
+        width: 458px; 
+    }
+
+    div.HEADER > h1{
+        font-family:'Didact Gothic', sans-serif;
+        color: rgb(236, 236, 236);
+        font-size: 34px;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin: 0vh;
+        padding-top: 176px;
+    }
+
+    div.HEADER > h4{
+        color: rgb(236, 236, 236);
+        font-size: 18px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    } 
+    
+     div.HEADER > h4:nth-child(3){
+        margin-bottom: 40vh;
+     }    
+
+     div.MENU {
+        max-width: 5rem;
+        display: block;
+        text-align: left;
+        padding-top: 3rem;
+        padding-left: 2rem;
+        margin-bottom: 5rem;
+    }
+    
+    div.MENU > i {
+        color: rgb(236, 236, 236);
+        padding-bottom: 1rem;
+    }
+    
+    nav#MENU_HAMBURGUESA{
+        display: none;
+        text-decoration: none;
+    }
+    
+    nav#MENU_HAMBURGUESA > ul > li > ul > li > a {
+        
+        position: left;
+        display: flex;
+        align-items: center;
+        text-align: left;
+        text-decoration: none;
+        list-style-type: none;
+        gap: 1rem;
+        padding: 1rem;
+    }
+    
+    .ICONOS > ul {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 3rem;
+        padding-right: 2rem;
+        gap: 1rem;
+      }
+      
+    .ICONOS > ul > li {
+        display: flex;
+        outline: none;
+        color: rgb(236, 236, 236);
+      }
+    
+    
+    .ICONOS > ul > li > a{
+        color: rgb(236, 236, 236);
+    }
+
+    section#PAGE2{
+        position: center;
+        align-items: center;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        color: rgb(236, 236, 236);
+        padding-bottom: 18rem;
+    }
+    
+    section#PAGE2 > h2{
+        font-size: 24px;
+        padding-bottom: 3rem;
+    }
+    
+    section#PAGE2 > ul > li > a{
+        font-weight: bold;
+        font-size: 24px;
+        text-decoration: none;
+        list-style-type: none;
+        outline: none;
+        color: rgb(236, 236, 236);
+        padding-bottom: 0rem;
+    }
+    
+    section#PAGE2 > ul > li{
+        color:rgb(236, 236, 236);
+        list-style: none;
+        padding-bottom: 0.5rem;
+    }
+
+    li::marker{
+        text-decoration:rgb(236, 236, 236);
+        list-style: none;
+    }
+
+
+    #ARTIST {
+        padding-top: 7rem;
+        padding-bottom: 0rem;
+        background-color: rgb(236, 236, 236);
+        width: 458px;
+    }
+    
+    #ARTIST > h2{
+        font-size: 32px;
+        width: 370px;
+        position: relative;
+        left: 47px;
+        padding-top: 8rem;
+        padding-bottom: 5rem;
+        text-align: center;
+    }
+    
+    #ARTIST > #ARTIST_PHOTOS{
+        max-width: 412px;
+        position: relative;
+        left: -30px;
+    }
+
+    #ARTIST > #ARTIST_PHOTOS > img:nth-child(1) {
+        width: 152px;
+        height: 256px;
+        position: relative;
+        left: 90px;
+        padding-left: 0px;
+    }
+    
+    #ARTIST > #ARTIST_PHOTOS >  img:nth-child(2) {
+        width: 97px;
+        height: 84px;
+        padding-left: 1rem;
+        position: relative;
+        top: -172px;
+        left: 84px;
+    }
+    
+    #ARTIST > #ARTIST_PHOTOS > img:nth-child(3) {
+        width: 97px;
+        height: 84px;
+        padding-left: 1rem;
+        position: relative;
+        top: -172px;
+        left: 77px;
+    }
+    
+    #ARTIST > #ARTIST_PHOTOS > img:nth-child(4) {
+        width: 190px;
+        height: 154px;
+        padding-left: 1rem;
+        position: relative;
+        left: 241px;
+        bottom: 157px;
+    }
+    
+    #ARTIST > #ARTIST_TEXT{
+        font-size: 19px;
+        padding-left: 30px;
+        padding-right: 30px;
+        position: relative;
+        bottom: 60px;
+        right: 0px;
+    }
+    
+    #STATEMENT {
+        padding-top: 0rem;
+        padding-bottom: 18rem;
+        background-color: rgb(236, 236, 236);
+    }
+    
+    #STATEMENT > h2{
+        font-size: 32px;
+        position: relative;
+        top: 10rem;
+        padding-bottom: 8rem;
+        text-align: center;
+    }
+    
+    #STATEMENT > p{
+        font-size: 19px;
+        padding-right: 24px;
+        padding-left: 24px;
+        margin-right: 0px;
+        margin-left: 0px;
+        position: relative;
+        right: 0px;
+        top: 92px;
+    }
+
+    #STATEMENT:nth-child(2){
+        position: relative;
+        left: 1px;
+        width: 458px;
+    }
+    
+    #STATEMENT > figure > img {
+        width: 330px;
+        height: 350px;
+        position: relative;
+        left: 60px;
+        top: 118px;
+    }
+    
+    #TECHNIQUE {
+        padding-top: 3rem;
+        background-color: rgb(236, 236, 236);
+        width: 458px;
+    }
+    
+    #TECHNIQUE > h2{
+        font-size: 48px;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+        text-align: center;
+    }
+    
+    #TECHNIQUE > figure > img {
+        width: 330px;
+        height: 350px;
+        position: relative;
+        top: 16px;
+        left: 64px;
+    }
+    
+    #TECHNIQUE > p{
+        font-size: 19px;
+        margin: 0px;
+        margin-right: 0px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 20px;
+        position: relative;
+        top: 90.5px;
+        left: 0px;
+    }
+
+    #SENSES{
+        width: 458px;
+    }
+
+    #MENU_COLOR {
+        padding-top: 3px;
+        background-color: rgb(236, 236, 236);
+        padding-right: 0px;
+    }
+    
+    #MENU_COLOR > h1{
+        font-size: 48px;
+        padding-top: 0rem;
+        text-align: center;
+        position: relative;
+        top: 280px;
+        left: 84px;
+        width: 295px;
+    }
+    
+    #MENU_COLOR > #COLOR_MENU > ul > li:nth-child(1){
+        padding-right: 1rem;
+        padding-left: 1rem;
+        margin-left: 1rem;
+        position: relative;
+        left: 12px;
+    }
+
+    #MENU_COLOR > #COLOR_MENU > ul > li:nth-child(1) > a{
+        position: relative;
+        top: 288px;
+        right: -84px;
+        text-decoration: none;
+        color: black;
+    }
+    
+    #MENU_COLOR > #COLOR_MENU > ul > li:nth-child(2){
+        padding-right: 1rem;
+        padding-left: 1rem;
+        margin-left: 1rem;
+        position: relative;
+        left: 12px;
+    }
+
+    #MENU_COLOR > #COLOR_MENU > ul > li:nth-child(2) > a{
+        position: relative;
+        top: 355px;
+        right: 41px;
+        text-decoration: none;
+        color: black;
+    }
+
+    #MENU_COLOR > #COLOR_MENU > ul > li:nth-child(3){
+        padding-right: 1rem;
+        padding-left: 1rem;
+        margin-left: 1rem;
+        position: relative;
+        left: 12px;
+    }
+
+    #MENU_COLOR > #COLOR_MENU > ul > li:nth-child(3) > a{
+        position: relative;
+        top: 392px;
+        right: -66px;
+        text-decoration: none;
+        color: black;
+    }
+
+    #MENU_COLOR > #COLOR_MENU > ul > li:nth-child(4){
+        padding-right: 1rem;
+        padding-left: 1rem;
+        margin-left: 1rem;
+        position: relative;
+        left: 12px;
+    }
+
+    #MENU_COLOR > #COLOR_MENU > ul > li:nth-child(4) > a{
+        position: relative;
+        top: 450px;
+        right: 76px;
+        text-decoration: none;
+        color: black;
+    }
+
+    #MENU_COLOR > #COLOR_MENU > ul > li:nth-child(5){
+        padding-right: 1rem;
+        padding-left: 1rem;
+        margin-left: 1rem;
+        position: relative;
+        left: 12px;
+    }
+
+    #MENU_COLOR > #COLOR_MENU > ul > li:nth-child(5) > a{
+        position: relative;
+        top: 483px;
+        right: -68px;
+        text-decoration: none;
+        color: black;
+    }
+    
+    #BLUE {
+        padding-top: 2rem;
+        background-color: rgb(236, 236, 236);
+        height: 1128px;
+    }
+    
+    #BLUE > h2{
+        font-weight: 800;
+        font-size: 48px;
+        position: relative;
+        top: 335px;
+        left: -264px;
+        text-align: right;
+    }
+    
+    #BLUE > figure > img:nth-child(1) {
+        width: 166px;
+        height: 163px;
+        position: relative;
+        bottom: 9px;
+        left: 50px;
+    }
+    
+    #BLUE > figure > img:nth-child(2) {
+        width: 163px;
+        height: 254px;
+        position: relative;
+        bottom: -81px;
+        left: 67px;
+    }
+    
+    #BLUE > figure > img:nth-child(3) {
+        width: 167px;
+        height: 122px;
+        position: relative;
+        bottom: 104px;
+        left: 50px;
+    }
+    
+    #BLUE > figure > img:nth-child(4) {
+        width: 163px;
+        height: 231px;
+        position: relative;
+        right: -65px;
+        top: 97px;
+    }
+    
+    #BLUE > figure > img:nth-child(5) {
+        width: 166px;
+        height: 124px;
+        position: relative;
+        left: 51px;
+        top: -110px;
+    }
+    
+    #BLUE > figure > img:nth-child(6) {
+        width: 166px;
+        height: 144px;
+        position: relative;
+        right: 120px;
+        top: 56px;
+    }
+    
+    #BLUE > p {
+        position: relative;
+        bottom: -62px;
+        right: 0px;
+        left: -94px;
+        font-size: 40px;
+        text-align: right;
+    }
+    
+    #GREEN {
+        background-color: rgb(236, 236, 236);
+        position: relative;
+        padding-top: 4rem;
+        padding-bottom: 8rem;
+    }
+    
+    #GREEN > h2{
+        font-weight: 800;
+        font-size: 48px;
+        position: relative;
+        top: 62px;
+        left: -225px;
+        text-align: right;
+        padding-bottom: 5rem;
+        padding-left: 1rem;
+    }
+    
+    #GREEN > p {
+        position: relative;
+        top: 632px;
+        right: 55px;
+        font-size: 36px;
+        text-align: right;
+    }
+    
+    #GREEN > figure > img:nth-child(1) {
+        width: 118px;
+        height: 122px;
+        position: relative;
+        left: 52.1px;
+        bottom: 32px;
+    }
+    
+    #GREEN > figure > img:nth-child(2) {
+        width: 214px;
+        height: 122px;
+        position: relative;
+        left: 65.2px;
+        bottom: 32px;
+    }
+    
+    #GREEN > figure > img:nth-child(3) {
+        width: 198px;
+        height: 292px;
+        position: relative;
+        left: 51.1px;
+        bottom: 19px;
+    }
+    
+    #GREEN > figure > img:nth-child(4) {
+        width: 135px;
+        height: 135px;
+        position: relative;
+        right: -64.5px;
+        top: -175.5px;
+    }
+    
+    #GREEN > figure > img:nth-child(5) {
+        width: 135px;
+        height: 135px;
+        position: relative;
+        left: 267.25px;
+        top: -187.5px;
+    }
+    
+    #GREEN > figure > img:nth-child(6) {
+        width: 165px;
+        height: 165px;
+        position: relative;
+        right: 87.5px;
+        top: -4.5px;
+    }
+    
+    #GREEN > figure > img:nth-child(7) {
+        width: 165px;
+        height: 165px;
+        position: relative;
+        left: 236.75px;
+        top: -172.5px;
+    }
+    
+    #YELLOW {
+        padding-bottom: 16rem;
+        padding-top: 7rem;
+        background-color: rgb(236, 236, 236);
+        position: relative;
+        top: 0px;
+        height: 1064px;
+    }
+    
+    #YELLOW > h2{
+        font-weight: 800;
+        font-size: 48px;
+        position: relative;
+        left: -186px;
+        bottom: 1168px;
+        text-align: right;
+    }
+    
+    #YELLOW > figure > img:nth-child(1) {
+        width: 187px;
+        height: 268px;
+        position: relative;
+        left: 57px;
+        bottom: 1255px;
+    }
+    
+    #YELLOW > figure > img:nth-child(2) {
+        width: 142px;
+        height: 268px;
+        position: relative;
+        left: 73px;
+        bottom: 1255px;
+    }
+    
+    #YELLOW > figure > img:nth-child(3) {
+        width: 163px;
+        height: 163px;
+        position: relative;
+        left: 56px;
+        bottom: 1243px;
+    }
+    
+    #YELLOW > figure > img:nth-child(4) {
+        width: 163px;
+        height: 163px;
+        position: relative;
+        left: 76px;
+        bottom: 1243px;
+    }
+    
+    #YELLOW > figure > img:nth-child(5) {
+        width: 348px;
+        height: 182px;
+        position: relative;
+        right: -58px;
+        top: -1229.5px;
+    }
+    
+    #YELLOW > figure > img:nth-child(6) {
+        width: 187px;
+        height: 142px;
+        position: relative;
+        left: 57.5px;
+        bottom: 1214.23px;
+    }
+    
+    #YELLOW > figure > img:nth-child(7) {
+        width: 142px;
+        height: 142px;
+        position: relative;
+        left: 71.5px;
+        bottom: 1214.25px;
+    }
+    
+    #YELLOW > p {
+        font-size: 40px;
+        position: relative;
+        bottom: 1202px;
+        right: 109px;
+        text-align: right;
+        padding: 0rem;
+    }
+    
+    #RED {
+        height: 1046px;
+        background-color: rgb(236, 236, 236);
+        padding-top: 5.5rem;
+    }
+    
+    #RED > h2{
+        font-weight: 800;
+        font-size: 46px;
+        position: relative;
+        top: -1042px;
+        left: -291px;
+        text-align: right;
+        padding-left: 17px;
+    }
+    
+    #RED > p {
+        font-size: 40px;
+        position: relative;
+        bottom: 1262px;
+        left: -1px;
+        text-align: right;
+        width: 400px;
+    }
+    
+    #RED > figure > img:nth-child(1) {
+        width: 164px;
+        height: 162px;
+        position: relative;
+        left: 57.5px;
+        top: -1086px;
+    }
+    
+    #RED > figure > img:nth-child(2) {
+        width: 164px;
+        height: 222px;
+        position: relative;
+        left: -110.5px;
+        bottom: 847px;
+    }
+    
+    #RED > figure > img:nth-child(3) {
+        width: 171px;
+        height: 162px;
+        position: relative;
+        left: 240.25px;
+        bottom: 1260px;
+    }
+    
+    #RED > figure > img:nth-child(4) {
+        width: 172px;
+        height: 172px;
+        position: relative;
+        right: -63.75px;
+        top: -1074.5px;
+    }
+    
+    #RED > figure > img:nth-child(5) {
+        width: 172px;
+        height: 172px;
+        position: relative;
+        right: -239px;
+        top: -1283.5px;
+    }
+    
+    #RED > figure > img:nth-child(6) {
+        width: 164px;
+        height: 391px;
+        position: relative;
+        right: 119px;
+        top: -1008.5px;
+    }
+    
+    #RED > figure > img:nth-child(7) {
+        width: 172px;
+        height: 258px;
+        position: relative;
+        left: 239.5px;
+        bottom: 1269.75px;
+    }
+    
+    #PURPLE {
+        background-color: rgb(236, 236, 236); 
+        padding-bottom: 0rem;
+        padding-top: 11rem;
+    }
+    
+    #PURPLE > h2{
+        font-weight: 800;
+        font-size: 46px;
+        padding-left: 0rem;
+        position: relative;
+        top: -128px;
+        left: -198px;
+        text-align: right;
+    }
+    
+    #PURPLE > figure > img:nth-child(1) {
+        width: 215px;
+        height: 291px;
+        position: relative;
+        left: 56px;
+        top: -107px;
+    }
+    
+    #PURPLE > figure > img:nth-child(2) {
+        width: 215px;
+        height: 225px;
+        position: relative;
+        left: -164.25px;
+        top: 137px;
+    }
+    
+    #PURPLE > figure > img:nth-child(3) {
+        width: 127px;
+        height: 155px;
+        position: relative;
+        right: -286px;
+        top: -461.7px;
+    }
+    
+    #PURPLE > figure > img:nth-child(4) {
+        width: 127px;
+        height: 129px;
+        position: relative;
+        left: 155.5px;
+        top: -312.5px;
+    }
+    
+    #PURPLE > figure > img:nth-child(5) {
+        width: 127px;
+        height: 215px;
+        position: relative;
+        right: -24px;
+        top: -81px;
+    }
+    
+    #PURPLE > figure > img:nth-child(6) {
+        width: 156px;
+        height: 108px;
+        position: relative;
+        right: -56px;
+        top: -66px;
+    }
+    
+    #PURPLE > figure > img:nth-child(7) {
+        width: 190px;
+        height: 108px;
+        position: relative;
+        left: 63.75px;
+        top: -65.5px;
+    }
+    
+    #PURPLE > p {
+        font-size: 40px;
+        position: relative;
+        top: -65.5px;
+        right: 141px;
+        text-align: right;
+    }
+    
+    #OTHER_SENSE {
+        background-color: rgb(236, 236, 236);
+        padding-bottom: 14rem;
+        padding-top: 11rem;
+        width: 458px;
+    }
+    
+    #OTHER_SENSE > h2{
+        font-size: 32px;
+        padding-top: 0rem;
+        text-align: center;
+        position: relative;
+        bottom: 26px;
+    
+    }
+    
+    #OTHER_SENSE > figure > img:nth-child(1) {
+        width: 153px;
+        height: 96px;
+        position: relative;
+        left: 57px;
+        top: 4px;
+    }
+    
+    #OTHER_SENSE > figure > img:nth-child(2) {
+        width: 116px;
+        height: 96px;
+        position: relative;
+        left: 52px;
+        top: 4px;
+    }
+    
+    #OTHER_SENSE > figure > img:nth-child(3) {
+        width: 79px;
+        height: 96px;
+        position: relative;
+        left: 47px;
+        top: 4px;
+    }
+    
+    #OTHER_SENSE > figure > img:nth-child(4) {
+        width: 119px;
+        height: 116px;
+        position: relative;
+        left: 57px;
+        top: 0px;
+    }
+    
+    #OTHER_SENSE > figure > img:nth-child(5) {
+        width: 112px;
+        height: 116px;
+        position: relative;
+        left: 52px;
+        top: 0px;
+    }
+    
+    #OTHER_SENSE > figure > img:nth-child(6) {
+        width: 117px;
+        height: 116px;
+        position: relative;
+        left: 47px;
+        top: 0px;
+    }
+    
+    #OTHER_SENSE > figure > img:nth-child(7) {
+        width: 100px;
+        height: 126px;
+        position: relative;
+        left: 57px;
+        top: -4px;
+    }
+    
+    #OTHER_SENSE > figure > img:nth-child(8) {
+        width: 125px;
+        height: 126px;
+        position: relative;
+        left: 53px;
+        top: -4px
+    }
+    
+    #OTHER_SENSE > figure > img:nth-child(9) {
+        width: 126px;
+        height: 126px;
+        position: relative;
+        right: -44.5px;
+        top: -4px;
+    }
+    
+    #OTHER_SENSE > figure > img:nth-child(10) {
+        width: 94px;
+        height: 111px;
+        position: relative;
+        right: -57px;
+        top: -7.25px;
+    }
+    
+    #OTHER_SENSE > figure > img:nth-child(11) {
+        width: 78px;
+        height: 111px;
+        position: relative;
+        right: -52.5px;
+        top: -7.25px; 
+    }
+    
+    #OTHER_SENSE > figure > img:nth-child(12) {
+        width: 89px;
+        height: 111px;
+        position: relative;
+        left: 48.1px;
+        top: -7.25px;
+    }
+    
+    #OTHER_SENSE > figure > img:nth-child(13) {
+        width: 88px;
+        height: 111px;
+        position: relative;
+        left: 43.9px;
+        top: -7.25px;
+    }
+    
+    #OTHER_SENSE > figure > img:nth-child(14) {
+        width: 96px;
+        height: 98px;
+        position: relative;
+        left: 57.1px;
+        top: -13px;
+    }
+    
+    #OTHER_SENSE > figure > img:nth-child(15) {
+        width: 100px;
+        height: 98px;
+        position: relative;
+        left: 52.1px;
+        top: -13px;
+    }
+    
+    #OTHER_SENSE > figure > img:nth-child(16) {
+        width: 154px;
+        height: 98px;
+        position: relative;
+        left: 48.1px;
+        top: -13px;
+    }
+    
+    #OTHER_SENSE > figure > img:nth-child(17) {
+        width: 72px;
+        height: 100px;
+        position: relative;
+        left: -305.9px;
+        top: 87px;
+    }
+    
+    #OTHER_SENSE > figure > img:nth-child(18) {
+        width: 177px;
+        height: 100px;
+        position: relative;
+        right: -129.6px;
+        top: -17px;
+    }
+    
+    #OTHER_SENSE > figure > img:nth-child(19) {
+        width: 100px;
+        height: 100px;
+        position: relative;
+        right: -124.6px;
+        top: -17px;
+    }
+    
+    #OTHER_SENSE > figure > img:nth-child(20) {
+        width: 85px;
+        height: 100px;
+        position: relative;
+        right: 228px;
+        top: 83px;
+    }
+    
+    #OTHER_SENSE > figure > img:nth-child(21) {
+        width: 111px;
+        height: 100px;
+        position: relative;
+        right: -143.6px;
+        top: -46px;
+    }
+    
+    #OTHER_SENSE > figure > img:nth-child(22) {
+        width: 74px;
+        height: 100px;
+        position: relative;
+        right: -139.6px;
+        top: -45.25px;
+    }
+    
+    #OTHER_SENSE > figure > img:nth-child(23) {
+        width: 79px;
+        height: 100px;
+        position: relative;
+        left: 133.7px;
+        top: -45.25px;
+    }
+    
+    #OTHER_SENSE > figure > img:nth-child(24) {
+        width: 103px;
+        height: 125px;
+        position: relative;
+        left: -220px;
+        top: 79px;
+    }
+    
+    #OTHER_SENSE > figure > img:nth-child(25) {
+        width: 92px;
+        height: 125px;
+        position: relative;
+        left: 161px;
+        top: -49px;
+    }
+    
+    #OTHER_SENSE > figure > img:nth-child(26) {
+        width: 156px;
+        height: 125px;
+        position: relative;
+        left: 154px;
+        top: -49px;
+    }
+    
+    #OTHER_SENSE > figure > img:nth-child(27) {
+        width: 70px;
+        height: 95px;
+        position: relative;
+        right: 198.8px;
+        top: 46.2px;
+    }
+    
+    #OTHER_SENSE > figure > img:nth-child(28) {
+        width: 140px;
+        height: 95px;
+        position: relative;
+        right: -128.2px;
+        top: -62.8px;
+    }
+    
+    #OTHER_SENSE > figure > img:nth-child(29) {
+        width: 140px;
+        height: 95px;
+        position: relative;
+        right: -122px;
+        top: -63px;
+    }
+    
+    #OTHER_SENSE > figure > img:nth-child(30) {
+        width: 105px;
+        height: 105px;
+        position: relative;
+        right: 230.8px;
+        top: 43.2px;
+    }
+    
+    #OTHER_SENSE > figure > img:nth-child(31) {
+        width: 114px;
+        height: 105px;
+        position: relative;
+        right: -164.2px;
+        top: -90.6px;
+    }
+    
+    #OTHER_SENSE > figure > img:nth-child(32) {
+        width: 130px;
+        height: 105px;
+        position: relative;
+        right: -158.2px;
+        top: -90.6px;
+    }
+    
+    #OTHER_SENSE > figure > img:nth-child(33) {
+        width: 96px;
+        height: 130px;
+        position: relative;
+        right: 194.8px;
+        top: 39px;
+    }
+    
+    #OTHER_SENSE > figure > img:nth-child(34) {
+        width: 153px;
+        height: 130px;
+        position: relative;
+        left: 155.5px;
+        top: -94px;
+    }
+    
+    #OTHER_SENSE > figure > img:nth-child(35) {
+        width: 100px;
+        height: 130px;
+        position: relative;
+        left: 149.5px;
+        top: -94px;
+    }
+    
+    #COLOR_TYPES {
+        padding-top: 2rem;
+        background-color: rgb(236, 236, 236); 
+        padding-bottom: 16rem;
+    }
+    
+    #COLOR_TYPES > #COLOR_BLUE{
+        margin: 0rem;
+        padding: 0rem;
+        width: 353px;
+        height: 50px;
+    }
+    
+    #COLOR_TYPES > #COLOR_BLUE > p{
+        color: darkblue;
+        margin: 0;
+        position: relative;
+        left: 62px;
+        top: -104px;
+        font-size: 16px;
+    }
+    
+    #COLOR_TYPES > #COLOR_GREEN{
+        margin: 0rem;
+        padding: 0rem;
+        width: 338px;
+        height: 50px;
+    }
+    
+    #COLOR_TYPES > #COLOR_GREEN > p{
+        color: darkgreen;
+        margin: 0;
+        position: relative;
+        left: 62px;
+        top: 39px;
+        font-size: 16px;
+    }
+    
+    #COLOR_TYPES > #COLOR_YELLOW{
+        margin: 0rem;
+        padding: 0rem;
+        width: 317px;
+        height: 50px
+    }
+    
+    #COLOR_TYPES > #COLOR_YELLOW > p{
+        color: goldenrod;
+        margin: 0;
+        position: relative;
+        left: 64px;
+        top: 218px;
+        font-size: 16px;
+    }
+    
+    #COLOR_TYPES > #COLOR_RED{
+        margin: 0rem;
+        padding: 0rem;
+        width: 320px;
+        height: 50px;
+    }
+    
+    #COLOR_TYPES > #COLOR_RED > p{
+        color: darkred;
+        margin: 0;
+        position: relative;
+        left: 64px;
+        top: 384px;
+        font-size: 16px;
+    }
+    
+    #COLOR_TYPES > #COLOR_PURPLE{
+        margin: 0rem;
+        padding: 0rem;
+        width: 292px;
+        height: 50px;
+    }
+    
+    #COLOR_TYPES > #COLOR_PURPLE > p{
+        color: darkviolet;
+        margin: 0;
+        position: relative;
+        left: 70px;
+        top: 574px;
+        font-size: 16px;
+    }
+    
+    footer {
+        padding-top: 1rem;
+        background-color: rgb(236, 236, 236);
+        width: 458px;
+    }
+    
+    div.ALMA_FINAL{
+        padding-bottom: 14rem;
+        padding-top: 34rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+    
+    div.ALMA_FINAL > h1{
+        position: relative;
+        left: 0px;
+        font-size: 34px;
+        display: flex;
+        justify-content: center;
+        width: 458px;
+    }
+    
+    div.ALMA_FINAL > h4{
+        display: flex;
+        justify-content: center;
+        font-size: 18px;
+    }
+    
+    #LEGAL{
+        position: relative;
+        left: 0px;
+        bottom: 97px;
+        width: 241px;
+    }
+
+    #LEGAL > p{
+        position: relative;
+        left: 42px;
+        width: 100px;
+    }
+    
+    #PRIVACY{
+        position: relative;
+        left: 0px;
+        bottom: 120px;
+        width: 160px;
+    }
+
+    #PRIVACY > p{
+        position: relative;
+        left: 179px;
+        bottom: 22px;
+        width: 100px;
+        text-align: center;
+    }
+
+    #COOKIE{
+        position: relative;
+        left: 0px;
+        bottom: 143px;
+        width: 153px;
+    }
+    
+    #COOKIE > p{
+        position: relative;
+        left: 263px;
+        bottom: 47px;
+        width: 152px;
+        text-align: right;
+    }
+
+    #CONTACT{
+        position: relative;
+        left: 0rem;
+        bottom: 7.5rem;
+        margin-left: 0rem;
+        padding: 0rem;
+    }
+    
+    #CONTACT > h4{
+        position: relative;
+        padding-bottom: 2rem;
+        padding-top: 4rem;
+        margin: 0rem;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #CONTACT > p{
+        position: relative;
+        margin: 0rem;
+        padding: 0rem;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #COPYRIGHT{
+        position: relative;
+        left: 0px;
+        padding-bottom: 0px;
+        padding-right: 15px;
+        padding-left: 15px;
+        width: 390px;
+    }
+
+    #COPYRIGHT > p{
+        position: relative;
+        left: 40px;
         bottom: 2px;
         text-align: center;
     }
@@ -3731,7 +5006,6 @@ div.ALMA_FINAL > h4{
     }
 
 }
-
 
 
 @media screen and (max-width: 390px){
