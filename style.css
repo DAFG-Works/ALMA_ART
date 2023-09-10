@@ -3748,6 +3748,7 @@ div.ALMA_FINAL > h4{
         background-image: url(IMG/HEAD/HAIZY_HUES.jpg);
         background-size: 1000px;
         background-position: top right; 
+        width: 412px;
     }
 
     div.HEADER > h1{
@@ -3887,13 +3888,15 @@ div.ALMA_FINAL > h4{
     
     #ARTIST > #ARTIST_PHOTOS{
         max-width: 412px;
+        position: relative;
+        left: 0px;
     }
 
     #ARTIST > #ARTIST_PHOTOS > img:nth-child(1) {
         width: 152px;
         height: 256px;
         position: relative;
-        left: 22px;
+        left: 30px;
         padding-left: 0px;
     }
     
@@ -3903,7 +3906,7 @@ div.ALMA_FINAL > h4{
         padding-left: 1rem;
         position: relative;
         top: -172px;
-        left: 19px;
+        left: 27px;
     }
     
     #ARTIST > #ARTIST_PHOTOS > img:nth-child(3) {
@@ -3912,7 +3915,7 @@ div.ALMA_FINAL > h4{
         padding-left: 1rem;
         position: relative;
         top: -172px;
-        left: 17px;
+        left: 25px;
     }
     
     #ARTIST > #ARTIST_PHOTOS > img:nth-child(4) {
@@ -3920,7 +3923,7 @@ div.ALMA_FINAL > h4{
         height: 154px;
         padding-left: 1rem;
         position: relative;
-        left: 173px;
+        left: 181px;
         bottom: 157px;
     }
     
@@ -3961,6 +3964,7 @@ div.ALMA_FINAL > h4{
     #STATEMENT:nth-child(2){
         position: relative;
         left: 1px;
+        width: 412px;
     }
     
     #STATEMENT > figure > img {
@@ -3974,6 +3978,7 @@ div.ALMA_FINAL > h4{
     #TECHNIQUE {
         padding-top: 3rem;
         background-color: rgb(236, 236, 236);
+        width: 412px;
     }
     
     #TECHNIQUE > h2{
@@ -4003,10 +4008,15 @@ div.ALMA_FINAL > h4{
         left: 0px;
     }
     
+    #SENSES{
+        width: 412px;
+    }
+
     #MENU_COLOR {
         padding-top: 3px;
         background-color: rgb(236, 236, 236);
         padding-right: 0px;
+        width: 412px;
     }
     
     #MENU_COLOR > h1{
@@ -4015,7 +4025,7 @@ div.ALMA_FINAL > h4{
         text-align: center;
         position: relative;
         top: 280px;
-        left: 2px;
+        left: 54px;
     }
     
     #MENU_COLOR > #COLOR_MENU > ul > li:nth-child(1){
@@ -4104,6 +4114,7 @@ div.ALMA_FINAL > h4{
         padding-top: 2rem;
         background-color: rgb(236, 236, 236);
         height: 1128px;
+        width: 412px;
     }
     
     #BLUE > h2{
@@ -4177,6 +4188,7 @@ div.ALMA_FINAL > h4{
         position: relative;
         padding-top: 7rem;
         padding-bottom: 8rem;
+        width: 412px;
     }
     
     #GREEN > h2{
@@ -4260,6 +4272,7 @@ div.ALMA_FINAL > h4{
         position: relative;
         top: 0px;
         height: 1064px;
+        width: 412px;
     }
     
     #YELLOW > h2{
@@ -4339,6 +4352,7 @@ div.ALMA_FINAL > h4{
     #RED {
         height: 1046px;
         background-color: rgb(236, 236, 236);
+        width: 412px;
     }
     
     #RED > h2{
@@ -4420,6 +4434,7 @@ div.ALMA_FINAL > h4{
         background-color: rgb(236, 236, 236); 
         padding-bottom: 0rem;
         padding-top: 8rem;
+        width: 412px;
     }
     
     #PURPLE > h2{
@@ -4499,6 +4514,7 @@ div.ALMA_FINAL > h4{
     #OTHER_SENSE {
         background-color: rgb(236, 236, 236);
         padding-bottom: 8rem;
+        width: 412px;
     }
     
     #OTHER_SENSE > h2{
@@ -4794,6 +4810,7 @@ div.ALMA_FINAL > h4{
         padding-top: 2rem;
         background-color: rgb(236, 236, 236); 
         padding-bottom: 16rem;
+        width: 412px;
     }
     
     #COLOR_TYPES > #COLOR_BLUE{
@@ -4879,6 +4896,7 @@ div.ALMA_FINAL > h4{
     footer {
         padding-top: 1rem;
         background-color: rgb(236, 236, 236);
+        width: 412px;
     }
     
     div.ALMA_FINAL{
@@ -4982,7 +5000,7 @@ div.ALMA_FINAL > h4{
 
     #COPYRIGHT > p{
         position: relative;
-        left: 0px;
+        left: 6px;
         bottom: 2px;
         text-align: center;
     }
