@@ -1156,15 +1156,13 @@ div.ALMA_FINAL > h4{
     justify-content: center;
 }
 
-#CONTACT > p{
-    position: relative;
-    /* right: 9rem; */
-    margin: 0rem;
-    padding: 0rem;
-    /* text-align: left; */
+#CONTACT > a{
     display: flex;
-    /* flex-direction: column; */
     justify-content: center;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin: 1em;
 }
 
 #COPYRIGHT{
@@ -2421,12 +2419,13 @@ div.ALMA_FINAL > h4{
         justify-content: center;
     }
     
-    #CONTACT > p{
-        position: relative;
-        margin: 0rem;
-        padding: 0rem;
+    #CONTACT > a{
         display: flex;
         justify-content: center;
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        margin: 1em;
     }
     
     #COPYRIGHT{
@@ -2438,11 +2437,13 @@ div.ALMA_FINAL > h4{
         width: 390px;
     }
 
-    #COPYRIGHT > p{
-        position: relative;
-        left: 63px;
-        bottom: 2px;
-        text-align: center;
+    #CONTACT > a{
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        margin: 1em;
     }
     
     .scroll-to-top {
@@ -3708,17 +3709,21 @@ div.ALMA_FINAL > h4{
     #COPYRIGHT{
         position: relative;
         left: 0px;
+        bottom: 74px;
         padding-bottom: 0px;
         padding-right: 15px;
         padding-left: 15px;
-        width: 390px;
+        width: 434px;
+        text-align: center;
     }
 
-    #COPYRIGHT > p{
-        position: relative;
-        left: 40px;
-        bottom: 2px;
-        text-align: center;
+    #CONTACT > a{
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        margin: 1em;
     }
     
     .scroll-to-top {
@@ -4981,21 +4986,24 @@ div.ALMA_FINAL > h4{
         justify-content: center;
     }
     
-    #CONTACT > p{
-        position: relative;
-        margin: 0rem;
-        padding: 0rem;
+    #CONTACT > a{
         display: flex;
         justify-content: center;
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        margin: 1em;
     }
     
     #COPYRIGHT{
         position: relative;
         left: 0px;
+        bottom: 74px;
         padding-bottom: 0px;
         padding-right: 15px;
         padding-left: 15px;
         width: 390px;
+        text-align: center;
     }
 
     #COPYRIGHT > p{
@@ -6190,7 +6198,7 @@ div.ALMA_FINAL > h4{
 
     #LEGAL > p{
         position: relative;
-        left: 21px;
+        left: 42px;
         width: 100px;
     }
     
@@ -6252,17 +6260,21 @@ div.ALMA_FINAL > h4{
     #COPYRIGHT{
         position: relative;
         left: 0px;
+        bottom: 74px;
         padding-bottom: 0px;
         padding-right: 15px;
         padding-left: 15px;
         width: 390px;
+        text-align: center;
     }
 
-    #COPYRIGHT > p{
-        position: relative;
-        left: 0px;
-        bottom: 2px;
-        text-align: center;
+    #CONTACT > a{
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        margin: 1em;
     }
     
     .scroll-to-top {
