@@ -5159,7 +5159,7 @@ div.ALMA_FINAL > h4{
         padding-top: 7rem;
         padding-bottom: 0rem;
         background-color: rgb(236, 236, 236);
-        max-width: 390px;
+        max-width: 412px;
     }
     
     #ARTIST > h2{
@@ -5295,7 +5295,7 @@ div.ALMA_FINAL > h4{
         text-align: center;
         position: relative;
         top: 280px;
-        left: 2px;
+        left: 55px;
     }
     
     #MENU_COLOR > #COLOR_MENU > ul > li:nth-child(1){
@@ -5309,7 +5309,7 @@ div.ALMA_FINAL > h4{
     #MENU_COLOR > #COLOR_MENU > ul > li:nth-child(1) > a{
         position: relative;
         top: 288px;
-        right: -31px;
+        right: -54px;
         text-decoration: none;
         color: black;
     }
@@ -5325,7 +5325,7 @@ div.ALMA_FINAL > h4{
     #MENU_COLOR > #COLOR_MENU > ul > li:nth-child(2) > a{
         position: relative;
         top: 355px;
-        right: 94px;
+        right: 75px;
         text-decoration: none;
         color: black;
     }
@@ -5341,7 +5341,7 @@ div.ALMA_FINAL > h4{
     #MENU_COLOR > #COLOR_MENU > ul > li:nth-child(3) > a{
         position: relative;
         top: 392px;
-        right: -13px;
+        right: -33px;
         text-decoration: none;
         color: black;
     }
@@ -5356,8 +5356,8 @@ div.ALMA_FINAL > h4{
 
     #MENU_COLOR > #COLOR_MENU > ul > li:nth-child(4) > a{
         position: relative;
-        top: 429px;
-        right: -37px;
+        top: 449px;
+        right: 106px;
         text-decoration: none;
         color: black;
     }
@@ -5373,11 +5373,10 @@ div.ALMA_FINAL > h4{
     #MENU_COLOR > #COLOR_MENU > ul > li:nth-child(5) > a{
         position: relative;
         top: 491px;
-        right: 101px;
+        right: -38px;
         text-decoration: none;
         color: black;
     }
-    /* AL IGUAL QUE LOS ICONOS EL COLOR NO CAMBIA */
     
     #BLUE {
         padding-top: 2rem;
